@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <!-- Font-Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- my Styles -->
+  <link rel="stylesheet" href="./styles/main.css" />
+  <!-- my scripts -->
+  <script src="./script/code.js"></script>
+
+  <!-- SPA => i will try my best using ajax -->
+  <title>Pomodoro-App</title>
+</head>
+
+<body class="dark-theme">
+  <div class="container">
+    <header id="header">
+      <div class="today-date">monday-july-2022</div>
+      <nav id="nav">
+        <ul id="list-items">
+          <li class="item"><a href="#">Home</a></li>
+          <li class="item"><a href="#">Home</a></li>
+          <li class="item"><a href="#">Home</a></li>
+        </ul>
+        <button class="menu-btn" style="display: none;">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- start content -->
+      <div class="content">
+        <!-- start one duration btn -->
+        <div class="duration-btn">
+          <div class="duration-icon"><i class="fa-solid fa-apple-whole"></i></div>
+          <div class="duration-time">5</div>
+        </div>
+        <!-- end one duration btn -->
+        <!-- start one duration btn -->
+        <div class="duration-btn">
+          <div class="duration-icon"><i class="fa-solid fa-lemon"></i></div>
+          <div class="duration-time">10</div>
+        </div>
+        <!-- end one duration btn -->
+        <!-- start one duration btn -->
+        <div class="duration-btn">
+          <div class="duration-icon"><i class="fa-solid fa-bandcamp"></i></div>
+          <div class="duration-time">15</div>
+        </div>
+        <!-- end one duration btn -->
+        <!-- start one duration btn -->
+        <div class="duration-btn">
+          <div class="duration-icon"><i class="fa-solid fa-h-square"></i></div>
+          <div class="duration-time">20</div>
+        </div>
+        <!-- end one duration btn -->
+      </div>
+      <!-- end content -->
+      <!-- start achievement -->
+      <div class="achievement-container">
+        <div class="achievement">
+          <div class="achievement-icon"></div>
+          <div class="achievement-today"></div>
+          <div class="achievement-stars"></div>
+        </div>
+        <div class="achievement-bar"></div>
+      </div>
+      <!-- end achievement -->
+      <!-- start info -->
+      <div class="info"></div>
+      <!-- end info -->
+    </main>
+    <!-- start footer -->
+    <footer>
+      <p>
+        <i class="fa fa-copyright" aria-hidden="true"></i>
+        <span> Khaled Salem </span>
+      </p>
+    </footer>
+    <!-- end footer -->
+  </div>
+
+</body>
+
+</html>
